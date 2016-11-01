@@ -5,6 +5,12 @@ visualization tools make things pretty. Google's is commonly used, although ther
 others as well that are worth looking into.  Making visualization is fairly straightforward,
 like these examples:
 
+Gemfile:
+gem "googlecharts", :require => "gchart"
+
+Ruby file: 
+require 'gchart'
+
 Gchart.line(  :size => '600x300', <br>
               :title => "SP 500 Closing Prices in October",<br>
               :legend => ['Prices'],<br>
