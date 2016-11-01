@@ -31,3 +31,4 @@ Gchart.pie(
 			:bar_width_and_spacing => [50, 70]<br>
 			)           
 
+Full documentation here: https://github.com/mattetti/googlecharts
