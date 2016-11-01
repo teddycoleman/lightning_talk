@@ -5,10 +5,10 @@ visualization tools make things pretty. Google's is commonly used, although ther
 others as well that are worth looking into.  Making visualization is fairly straightforward,
 like these examples:
 
-Gemfile:
+Gemfile: <br>
 gem "googlecharts", :require => "gchart"
 
-Ruby file: 
+Ruby file: <br>
 require 'gchart'
 
 Gchart.line(  :size => '600x300', <br>
@@ -37,7 +37,7 @@ Gchart.pie(
 			:bar_width_and_spacing => [50, 70]<br>
 			)           
 			
-View file:
+View file: <br>
 <%= image_tag(@pie_chart) %><br>
 
 Full documentation here: https://github.com/mattetti/googlecharts
