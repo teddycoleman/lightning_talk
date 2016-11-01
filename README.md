@@ -36,5 +36,8 @@ Gchart.pie(
 			:axis_labels => [['Microwave Minute','End of Work Day Minute', 'Standard Minute','Sleep Minute','Internet Minute'],['Minute length']], <br>
 			:bar_width_and_spacing => [50, 70]<br>
 			)           
+			
+View file:
+<%= image_tag(@pie_chart) %><br>
 
 Full documentation here: https://github.com/mattetti/googlecharts
